@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Oriented Model</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    
+    <h1>Todo list</h1>
+    <h4>1. Take Class</h4>
+    <h4>2. Go</h4>
+    <h4>3. Go to gym</h4>
+    <div>
+        <input type="text" placeholder="Add your todo here">
+        <button id="btn" onclick="addTodo()"> Add Todo</button>
+    </div>
+    <script>
+        function addTodo() {
+            const inputElement = document.querySelector("input");
+            const value = inputElement.value;
+            console.log(value);
+        }
+        
+    </script>
+</body>
+
+</html>
